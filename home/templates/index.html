@@ -6,32 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{% static '/style.css' %}">
+    <script defer src="{% static '/js/main.js' %}"></script>
+    <script src="https://kit.fontawesome.com/97d76b00cf.js"></script>
     <title>TOTA F.C.</title>
 </head>
 <body>
-    <header>
-        <a href="">Inicio</a>
-        <a href="#sobre">Sobre</a>
-        <a href="">Elenco</a>
-        <a href="">Marcar confrontos</a>
-        <a href="">Agenda</a>
-        <a href="">Contato</a>
-    </header>
+        <header class="header-welcome" id="inicio">
+                <div class="header-nav">
+                    <i class="fas fa-bars" id="btnMobile"></i>
+                    <a href="#inicio">
+                    </a>
+                    <nav class="menu-container">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#elenco">Elenco</a>
+                        <a href="#marcar">Marcar X1</a>
+                        <a href="#agenda">Agenda</a>
+                        <a href="#contato">Contato</a>
+                    </nav>
+                </div>
+                <span>TOTA F.C</span>
+                <p>O melhor time é o meu!</p>
+                <button class="btn-default"><a href="#sobre">Desafiar</a></button>
+            </header>
     
-    <main>
-        <section>
-            <h1>TOTA F.C.</h1>
-            <p>O melhor time é o meu!</p>
-            <button class="btn-default">Desafiar</button>
-            <!-- <img src="../static/images/logo.png" alt=""> -->
-        </section>
-    </main>
     <section id="sobre">
         <div>
-            <h2>Sobre nosso time</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, voluptatibus quidem eos rerum accusantium doloribus sint impedit </p>
+            <h2>Sobre</h2>
         </div>
-        <img src="../static/images/time.jpeg" alt="">
+        <div>
+            <div>
+                <h3>O nosso time</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, voluptatibus quidem eos rerum accusantium doloribus sint impedit </p>
+            </div>
+            <img src="../static/images/time.jpeg" alt="">
+        </div>
+    </section>
+
+    <section class="elenco">
+
     </section>
 </body>
 </html>

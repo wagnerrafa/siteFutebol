@@ -1,1 +1,1 @@
-web: gunicorn<tota>.wsgi
+web: gunicorn<home>.wsgi

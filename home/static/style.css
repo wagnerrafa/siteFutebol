@@ -2,7 +2,64 @@ body{
     margin: 0;
     padding: 0;
 }
-header h1{
-    color: red;
-    font-style: 20px;
+
+.btn-default {
+    background-color: #e4d03c;
+    box-shadow: #e4d03c 0 0 5px 2px;
+    color: #102041;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s box-shadow, background-color;
 }
+
+.btn-default:hover {
+    background-color: #bda10f;
+    box-shadow: #bda10f 0 0 5px 2px;
+}
+
+header{
+    height: 70px;
+    background-color: #e4d03c;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    color:#102041;
+    text-decoration: none;
+    padding: 0 20px;
+}
+section{
+    height: 35vh;
+    padding: 0;
+    margin: 0;
+}
+main section{
+    display: flex;
+    background-color:#102041;
+    padding: 250px 0;
+    align-items: center;
+    flex-direction: column; 
+    color:#e4d03c;
+    background-image: url(../static/images/logo.png);
+    background-repeat: no-repeat;
+}
+main h1{
+    padding: 0;
+    margin: 0;
+    font-size: 6rem;
+}
+main p{
+    font-size: 1.5rem;
+}
+/* main img{
+    width: 550px;
+    position: absolute;
+    right: 65%;
+    top: 30%;
+} */

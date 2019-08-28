@@ -14,7 +14,14 @@ body{
     cursor: pointer;
     transition: 0.5s box-shadow, background-color;
 }
-
+h2{
+    font-size: 4rem;
+    color: #102041;
+}
+p{
+    font-size: 1.3rem;
+    color: #102041;
+}
 .btn-default:hover {
     background-color: #bda10f;
     box-shadow: #bda10f 0 0 5px 2px;
@@ -57,9 +64,19 @@ main h1{
 main p{
     font-size: 1.5rem;
 }
-/* main img{
-    width: 550px;
-    position: absolute;
-    right: 65%;
-    top: 30%;
-} */
+#sobre{
+    display: flex;
+    align-items: center;
+    padding: 200px 100px;
+}
+#sobre div{
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    flex-direction: column;
+}
+#sobre img{
+    width: 50%;
+    border-radius: 50px;
+    min-width: 400px;
+}

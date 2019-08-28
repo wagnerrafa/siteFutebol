@@ -1,1 +1,1 @@
-web: gunicorn <TOTA>.wsgi
+web: gunicorn tota.wsgi

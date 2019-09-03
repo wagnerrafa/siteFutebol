@@ -8,7 +8,7 @@ class Post(models.Model):
   resumo = RichTextField()
   content = RichTextUploadingField()
   author = models.CharField(max_length=255)
-  image = models.ImageField((""), upload_to="")
+  image = models.ImageField((""), upload_to="uploads")
   created_at = models.DateField(auto_now_add=True)
   
   def __str__(self):

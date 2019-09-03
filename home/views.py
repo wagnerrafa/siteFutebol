@@ -6,4 +6,4 @@ from home.models import Post
 def home(request):
     noticias = Post.objects.all()
 
-    return render(request, 'index.html')
+    return render(request, 'index.html', {'posts': noticias})

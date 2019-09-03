@@ -55,7 +55,7 @@
         {% if posts %}
         {% for item in posts %}
         <article>
-            <img src="../media/uploads/{{item.image}}" alt="">
+            <img src="media/{{item.image}}" alt="">
     
             <div>
                 <div>
@@ -68,8 +68,8 @@
                     </i>
                 </div>
     
-                <h1>{{item.title}}</h1>
-                {{item.summary|safe|slice:":255"}}
+                <h1>{{item.nome}}</h1>
+                {{item.resumo|safe|slice:":255"}}
                 </div>
         </article>
         {% endfor %}

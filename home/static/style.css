@@ -115,7 +115,7 @@ section {
     color: #7651b7;
 }
 #sobre{
-    /* display: flex; */
+    background-color: darkgray;
 }
 #sobre div{
     display: flex;

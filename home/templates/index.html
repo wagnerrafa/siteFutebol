@@ -50,7 +50,6 @@
             <p>Veja um pouco sobre nosso elenco</p>
         </header>
     
-        {% if posts %}
         {% for item in posts %}
         <article>
             <img src="media/{{item.image}}" alt="">
@@ -71,7 +70,6 @@
                 </div>
         </article>
         {% endfor %}
-        {% endif %}            
         </div>
     </section>
 </body>

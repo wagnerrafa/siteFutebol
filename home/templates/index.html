@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{% static '/style.css' %}">
-    <link rel="stylesheet" href="../static/style.css">
     <script defer src="{% static '/js/main.js' %}"></script>
     <script src="https://kit.fontawesome.com/97d76b00cf.js"></script>
     <title>TOTA F.C.</title>
@@ -49,18 +48,19 @@
             <h2>Elenco</h2>
             <p>Veja um pouco sobre nosso elenco</p>
         </header>
-    
+
+        {% if posts %}
         {% for item in posts %}
         <article>
             <img src="media/{{item.image}}" alt="">
     
             <div>
                 <div>
-                    <i class="flaticon-user">
+                    <!-- <i class="flaticon-user"> -->
                         <span>{{item.author}}</span>
                     </i>
     
-                    <i class="flaticon-clock">
+                    <!-- <i class="flaticon-clock"> -->
                         <span>{{item.created_at|date:'d, M Y'}}</span>
                     </i>
                 </div>
@@ -70,6 +70,7 @@
                 </div>
         </article>
         {% endfor %}
+        {% endif %}
         </div>
     </section>
 </body>

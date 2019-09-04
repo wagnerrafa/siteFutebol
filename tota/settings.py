@@ -103,6 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
 CLOUDINARY = {
     'cloud_name' : 'wagner',
     'api_key' : '251526359977731',

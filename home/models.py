@@ -14,3 +14,24 @@ class Post(models.Model):
   
   def __str__(self):
     return self.nome
+
+class Marcar_Jogo(models.Model):
+  
+  LUGAR = (
+        ( "GRAMADO" , "Gramado" ),
+        ( "SOCIETY" , "Society" ),
+        ( "FUTSAL" , "Futsal" ),
+        ( "TAQUEADA" , "Taqueada" ),
+    )
+  name = models.CharField(max_length=255)
+  time = models.CharField(max_length=50)
+  end = models.CharField(max_length=255)
+  tel = models.CharField(max_length=20)
+  email = models.EmailField(max_length=255)
+  date = models.CharField(max_length=255)
+  hora = models.CharField(max_length=255)
+  lugar = models.CharField(max_length = 1, choices = LUGAR)
+  msg = models.CharField(max_length=255)
+  criado = models.DateField(auto_now_add=True)
+
+   

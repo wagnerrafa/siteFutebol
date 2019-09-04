@@ -18,6 +18,8 @@ body{
 h2{
     font-size: 4rem;
     color: #102041;
+    display: flex;
+    justify-content: center;
 }
 p{
     font-size: 1.3rem;
@@ -203,12 +205,41 @@ section {
     display: inline-block;
 }
 
-
 #elenco img {
     width: 250px;
     height: 300px;
 }
+#marcar{
+    width: 80%;
+}
 
+#marcar input{
+    width: 30%;
+    box-shadow: #e4d03c 0 0 5px 2px;
+    color: #102041;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s box-shadow, background-color;
+    text-decoration: none;
+}
+#marcar select {
+    width: 70%;
+    box-shadow: #e4d03c 0 0 5px 2px;
+    color: #102041;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s box-shadow, background-color;
+    text-decoration: none;
+}
+#marcar button{
+    width: 40%;
+}
 
 
 @media(max-width: 950px){
@@ -255,5 +286,15 @@ section {
         cursor: pointer;
         padding: 0 20px 0 20px;
     }
+    #marcar input{
+        width: 80%;
+    }
+    #marcar select{
+        width: 80%;
+    }
+    #marcar button{
+        width: 80%;
+    }
+    
     
 }

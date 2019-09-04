@@ -17,5 +17,4 @@ def home(request):
         pessoa.hora = request.POST['hora']
         pessoa.lugar = request.POST['lugar']
         pessoa.msg = request.POST['msg']
-        pessoa.save()
     return render(request, 'index.html', {'posts': noticias})

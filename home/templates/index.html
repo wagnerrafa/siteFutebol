@@ -46,13 +46,13 @@
     <section id="elenco">
         <header>
             <h2>Elenco</h2>
-            <p>Veja nosso elenco</p>
+            <p>Veja o nosso elenco</p>
         </header>
 
         {% if posts %}
         {% for item in posts %}
         <article>
-            <img src="media/{{item.image}}" alt="">
+            <img src="https://res.cloudinary.com/wagner/image/upload/{{item.image}}" alt="">
     
             <div>
                 <div>

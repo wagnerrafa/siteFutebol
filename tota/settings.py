@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'home',
     'ckeditor',
     'ckeditor_uploader',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
@@ -102,6 +103,11 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CLOUDINARY = {
+    'cloud_name' : 'wagner',
+    'api_key' : '251526359977731',
+    'api_secret': 'XVIS3Jlj5wMe-j-DUKGUEJlFTm0'
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/

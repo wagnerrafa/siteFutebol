@@ -210,7 +210,7 @@ section {
     height: 300px;
 }
 #marcar{
-    width: 80%;
+    background-color: darkgray;
 }
 
 #marcar input{
@@ -291,7 +291,7 @@ section {
         margin: 0;
     }
     #marcar input{
-        width: 100%;
+        width: 80%;
     }
     #marcar select{
         width: 100%;

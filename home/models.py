@@ -18,10 +18,10 @@ class Post(models.Model):
 class Marcar_Jogo(models.Model):
   
   LUGAR = (
-        ( "GRAMADO" , "Gramado" ),
-        ( "SOCIETY" , "Society" ),
-        ( "FUTSAL" , "Futsal" ),
-        ( "TAQUEADA" , "Taqueada" ),
+        ( "G" , "Gramado" ),
+        ( "S" , "Society" ),
+        ( "F" , "Futsal" ),
+        ( "T" , "Taqueada" ),
     )
   name = models.CharField(max_length=255)
   time = models.CharField(max_length=255)

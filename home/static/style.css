@@ -286,14 +286,18 @@ section {
         cursor: pointer;
         padding: 0 20px 0 20px;
     }
+    #marcar{
+        padding: 40px;
+        margin: 0;
+    }
     #marcar input{
-        width: 80%;
+        width: 100%;
     }
     #marcar select{
-        width: 80%;
+        width: 100%;
     }
     #marcar button{
-        width: 80%;
+        width: 100%;
     }
     
     

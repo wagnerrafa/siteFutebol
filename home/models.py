@@ -24,9 +24,9 @@ class Marcar_Jogo(models.Model):
         ( "TAQUEADA" , "Taqueada" ),
     )
   name = models.CharField(max_length=255)
-  time = models.CharField(max_length=50)
+  time = models.CharField(max_length=255)
   end = models.CharField(max_length=255)
-  tel = models.CharField(max_length=20)
+  tel = models.CharField(max_length=255)
   email = models.EmailField(max_length=255)
   date = models.CharField(max_length=255)
   hora = models.CharField(max_length=255)

@@ -332,6 +332,9 @@ section {
     #marcar button{
         width: 75.5vw;
     }
+    section#agenda{
+        padding: 0;
+    }
     #agenda div div{
         padding: 0 8px;
     }

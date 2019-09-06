@@ -214,31 +214,36 @@ section {
 }
 
 #marcar input{
-    width: 30%;
+    width: 20vw;
     box-shadow: #e4d03c 0 0 5px 2px;
     color: #102041;
-    padding: 10px 40px;
+    padding: 10px;
     border-radius: 5px;
     font-size: 1.3rem;
     border: 0;
     cursor: pointer;
     transition: 0.5s box-shadow, background-color;
     text-decoration: none;
+    height: 30px;
+    margin: 10px;
 }
 #marcar select {
-    width: 70%;
+    width: 21.4vw;
     box-shadow: #e4d03c 0 0 5px 2px;
     color: #102041;
-    padding: 10px 40px;
+    padding: 10px;
     border-radius: 5px;
     font-size: 1.3rem;
     border: 0;
     cursor: pointer;
     transition: 0.5s box-shadow, background-color;
     text-decoration: none;
+    height: 50px;
+    margin: 10px;
 }
 #marcar button{
-    width: 40%;
+    width: 21.4vw;
+    margin: 10px;
 }
 
 
@@ -291,13 +296,13 @@ section {
         margin: 0;
     }
     #marcar input{
-        width: 80%;
+        width: 70vw;
     }
     #marcar select{
-        width: 100%;
+        width: 72.4vw;
     }
     #marcar button{
-        width: 100%;
+        width: 72.4vw;
     }
     
     

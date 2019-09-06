@@ -27,7 +27,7 @@
                 </div>
                 <span>TOTA F.C</span>
                 <p>O melhor time é o meu!</p>
-                <button class="btn-default"><a href="#sobre">Desafiar</a></button>
+                <button class="btn-default"><a href="#marcar">Desafiar</a></button>
             </header>
     
     <section id="sobre">
@@ -83,17 +83,18 @@
         <form method="POST" action="/">
             {% csrf_token %}
             <div>
-            <input type="text" name="name" placeholder="Seu nome">
-            <input type="text" name="time" placeholder="Seu time">
-            <input type="text" name="end" placeholder="Endereço do contra">
-            <input type="text" name="tel" placeholder="Seu telefone">
-            <input type="email" name="email" placeholder="Seu email">
-            <input type="date" name="date" placeholder="Dia do contra">
-            <input type="time" name="hora" placeholder="Hora do contra">
-            <input type="text" name="msg" placeholder="mensagem">
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="text" name="time" placeholder="Seu time" required>
+            <input type="text" name="end" placeholder="Endereço do contra" required>
+            <input type="text" name="tel" placeholder="Seu telefone" required>
+            <input type="email" name="email" placeholder="Seu email" required>
+            <input type="date" name="date" placeholder="Dia do contra" required>
+            <input type="time" name="hora" placeholder="Hora do contra" required>
+            <input type="text" name="msg" placeholder="Mensagem" required>
         </div>
             <div>
-            <select name="lugar">
+            <select name="lugar" required>
+                    <option value="" disabled selected>Tipo de quadra...</option>
                     <option value="GRAMADO">Gramado</option>
                     <option value="SOCIETY">Society</option>
                     <option value="FUTSAL">Futsal</option>

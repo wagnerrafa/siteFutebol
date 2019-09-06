@@ -214,7 +214,7 @@ section {
 }
 
 #marcar input{
-    width: 20vw;
+    width: 18vw;
     box-shadow: #e4d03c 0 0 5px 2px;
     color: #102041;
     padding: 10px;
@@ -228,7 +228,7 @@ section {
     margin: 10px;
 }
 #marcar select {
-    width: 21.4vw;
+    width: 19.4vw;
     box-shadow: #e4d03c 0 0 5px 2px;
     color: #102041;
     padding: 10px;
@@ -242,7 +242,7 @@ section {
     margin: 10px;
 }
 #marcar button{
-    width: 21.4vw;
+    width: 19.4vw;
     margin: 10px;
 }
 
@@ -299,10 +299,10 @@ section {
         width: 70vw;
     }
     #marcar select{
-        width: 72.4vw;
+        width: 75.5vw;
     }
     #marcar button{
-        width: 72.4vw;
+        width: 75.5vw;
     }
     
     

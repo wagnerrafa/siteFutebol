@@ -29,7 +29,6 @@ class Marcar_Jogo(models.Model):
   tel = models.CharField(max_length=255)
   email = models.EmailField(max_length=255)
   date = models.CharField(max_length=255)
-  hora = models.CharField(max_length=255)
   lugar = models.CharField(max_length = 255, choices = LUGAR)
   msg = models.CharField(max_length=255)
   criado = models.DateField(auto_now_add=True)

@@ -14,7 +14,6 @@ def home(request):
         pessoa.tel = request.POST['tel']
         pessoa.email = request.POST['email']
         pessoa.date = request.POST['date']
-        pessoa.hora = request.POST['hora']
         pessoa.lugar = request.POST['lugar']
         pessoa.msg = request.POST['msg']
         pessoa.save()

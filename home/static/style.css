@@ -245,6 +245,11 @@ section {
     width: 19.4vw;
     margin: 10px;
 }
+#marcar nav{
+  font-size: 2rem;
+  color: #102041;
+  margin: 10px;
+}
 
 
 @media(max-width: 950px){

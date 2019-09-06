@@ -21,6 +21,10 @@ h2{
     display: flex;
     justify-content: center;
 }
+h3{
+    font-size: 2rem;
+    color: #e4d03c;
+}
 p{
     font-size: 1.3rem;
     color: #102041;
@@ -249,6 +253,24 @@ section {
   font-size: 2rem;
   color: #102041;
   margin: 10px;
+}
+#agenda div{
+    display: flex;
+}
+#agenda div div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:400px;
+    box-shadow: #e4d03c 0 0 5px 2px;
+    color: #102041;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    border: 0;
+    transition: 0.5s box-shadow, background-color;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
 }
 
 

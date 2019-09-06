@@ -6,8 +6,7 @@ from home.models import Post, Marcar_Jogo
 def home(request):
     noticias = Post.objects.all()
     noticia = Marcar_Jogo.objects.all()
-    contexto = {'msgOk': ''}
-
+    contexto = ''
 
     if request.method == 'POST':
         pessoa = Marcar_Jogo()
@@ -20,5 +19,5 @@ def home(request):
         pessoa.lugar = request.POST['lugar']
         pessoa.msg = request.POST['msg']
         pessoa.save()
-        contexto = {'msgOk': 'Pedido de contra recebido, em breve confirmaremos o jogo'}
-    return render(request, 'index.html',contexto, {'posts': noticias})
+        contexto = 'Pedido de contra recebido, em breve confirmaremos o jogo'
+    return render(request, 'index.html', {'msgOk': contexto,'posts': noticias, 'resultado': noticia})

@@ -106,5 +106,43 @@
         </nav>
         </form>
     </section>
+    <section id="agenda">
+            <h2>Agenda</h2>
+            <div>
+
+        <div>
+            <h3>Time</h3>
+            {% if resultado %}
+                {% for re in resultado %}
+                    <div>
+                        <span>{{re.time}}</span>
+                    </div>
+                {% endfor %}
+                {% endif %}
+        </div>
+
+        <div>
+            <h3>Lugar</h3>
+            {% if resultado %}
+            {% for re in resultado %}
+                <div>
+                    <span>{{re.end}}</span>
+                </div>                
+            {% endfor %}
+            {% endif %}
+        </div>
+        <div>
+            <h3>Data</h3>
+            {% if resultado %}
+            {% for re in resultado %}
+                <div>
+                    <span>{{re.date}}</span>
+                </div>                
+            {% endfor %}
+            {% endif %}
+        </div>
+        </div>
+
+    </section>
 </body>
 </html>

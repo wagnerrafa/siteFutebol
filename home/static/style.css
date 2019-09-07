@@ -121,7 +121,7 @@ section {
     color: #7651b7;
 }
 #sobre{
-    background-color: darkgray;
+    background-color: #e4d03c;
 }
 #sobre div{
     display: flex;
@@ -151,25 +151,28 @@ section {
     flex-flow: wrap;
     width: 100%;
     position: relative;
-    background-color: white;
+    background-color: #102041;
 }
 
 #elenco header {
     width: 100%;
     text-align: center;
-    color: #707070;
+    color: #e4d03c;
     font-size: 1.3rem;
 }
 
 #elenco header h2 {
     font-size: 3rem;
+    color: #e4d03c;
+}
+#elenco p{
+    color: #e4d03c;
 }
 
 #elenco article {
     display: flex;
     flex-direction: column;
     width: 250px;
-    /* width: 24%; */
     flex-wrap: wrap;
     height: fit-content;
     border-width: 2px;
@@ -178,11 +181,12 @@ section {
     transition: 0.5s all;
     margin: 5px 0 25px 0;
     overflow: hidden;
+    background-color: white;
 }
 
 #elenco article:hover {
     margin: -5px 0 25px 0;
-    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 0px 20px white;
 }
 
 #elenco article div {
@@ -214,7 +218,7 @@ section {
     height: 300px;
 }
 #marcar{
-    background-color: darkgray;
+    background-color: #e4d03c;
 }
 
 #marcar input{
@@ -248,20 +252,32 @@ section {
 #marcar button{
     width: 19.4vw;
     margin: 10px;
+    background-color: #102041;
+    color: #e4d03c;
 }
 #marcar nav{
   font-size: 2rem;
   color: #102041;
   margin: 10px;
 }
+#agenda{
+    background-color: #102041;
+}
+#agenda h2{
+    color: #e4d03c;
+    margin: 0;
+    padding: 40px
+
+}
 #agenda div{
     display: flex;
+    background-color: white;
 }
 #agenda div div{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height:400px;
+    height:480px;
     box-shadow: #e4d03c 0 0 5px 2px;
     color: #102041;
     border-radius: 5px;
@@ -272,6 +288,23 @@ section {
     justify-content: center;
     padding: 0 10px;
 
+}
+#contato{
+    background-color: #e4d03c;
+    font-size: 1.3rem;
+}
+#contato div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contato div a{
+    text-decoration: none;
+    color: #102041;
+    padding: 20px; 
+}
+#contato div img{
+    width: 60px;
 }
 
 
@@ -284,7 +317,7 @@ section {
         position: fixed;
         top: 70px;
         left: -50%;
-        width: 20%;
+        width: 50%;
         height: calc((var(--vh, 1vh) * 100) - 70px);
         display: flex;
         transition: all 1s;

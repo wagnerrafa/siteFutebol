@@ -29,6 +29,18 @@
                 <span>TOTA F.C</span>
                 <p>O melhor time é o meu!</p>
                 <button class="btn-default"><a href="#marcar">Desafiar</a></button>
+                <section class="numeros">
+                    <div>
+                        <div>
+                            <p>Vitorias <br> {{reVit}}</p>
+                        </div>
+                        <div>
+                            <p>Empates <br>{{reDer}}</p>
+                        </div>
+                            <p>Derrotas <br>{{reEmpa}}</p>
+                        <div></div>
+                    </div>
+                </section>
             </header>
     
     <section id="sobre">
@@ -156,5 +168,24 @@
             <a href="https://instagram.com/totafc2019?igshid=fco1tn3jn1ke" target="_blanck"><img src="../static/images/instagram.png" alt=""></a>
         </div>
     </section>
+    <section id="historico">
+        <div>
+            <h2>Historico</h2>
+            {% for re in msgRe %}
+            {% if re.placarCasa != none %}
+                <div>
+                    <span>TOTA F.C</span>
+                    <span>{{re.placarCasa}}</span>
+                    <span>X</span>
+                    <span>{{re.placarFora}}</span>
+                    <span>{{re.time}}</span>
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+    </section>
+    <div align=center><a href=''><img src='https://www.counter12.com/img-Z5yY40cb403907Ww-15.gif' border='0' alt='contador de visitas gratis'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=Z5yY40cb403907Ww'></script></div>
+
 </body>
 </html>

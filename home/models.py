@@ -23,6 +23,7 @@ class Marcar_Jogo(models.Model):
         ( "F" , "Futsal" ),
         ( "T" , "Taqueada" ),
     )
+
   name = models.CharField(max_length=255)
   time = models.CharField(max_length=255)
   end = models.CharField(max_length=255)
@@ -32,6 +33,11 @@ class Marcar_Jogo(models.Model):
   lugar = models.CharField(max_length = 255, choices = LUGAR)
   msg = models.CharField(max_length=255)
   criado = models.DateField(auto_now_add=True)
+  placarCasa = models.IntegerField(null=True)
+  placarFora = models.IntegerField(null=True)
   def __str__(self):
     return self.name
    
+  
+
+  

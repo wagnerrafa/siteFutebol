@@ -74,7 +74,7 @@ section {
     font-size: 3rem;
 }
 
-.header-welcome span {
+/* .header-welcome span {
     width: 100%;
     color: #e4d03c;
     display: inline-block;
@@ -82,7 +82,7 @@ section {
     font-size: 6rem;
     text-shadow: 2px 2px #102041;
 
-}
+} */
 
 .header-welcome p {
     width: 100%;
@@ -106,8 +106,10 @@ section {
     z-index: 2;
 }
 
-.header-nav img {
-    width: 70px;
+.header-welcome img {
+    max-width: 70vh;
+    width: 80%;
+    padding-top: 200px;
 }
 .header-welcome a{
     text-decoration: none;
@@ -341,7 +343,7 @@ section div{
         justify-content: flex-start;
         align-items: center;
     }
-    .menu-container {
+     .menu-container {
         position: fixed;
         top: 70px;
         left: -50%;
@@ -413,6 +415,9 @@ section div{
     }
     #historico div div{
         font-size: 1.3rem;
+    }
+    .header-welcome img {
+        padding: 0;
     }
 }
 

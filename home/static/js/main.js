@@ -1,12 +1,20 @@
 // Exibição do menu mobile
 let btnMenu = document.querySelector('#btnMobile');
+let btnMenuOff = document.querySelector('.menu-container')
 
 function abrirMenuMobile() {
     let navMenu = document.querySelector('.menu-container');
     navMenu.classList.toggle('menu-ativo');
 }
+/*function fecharMenu() {
+    let navMenu = document.querySelector('.menu-container');
+
+    navMenu.classList.remove('menu-ativo');
+}*/
+
 
 btnMenu.onclick = abrirMenuMobile;
+btnMenuOff.onclick = abrirMenuMobile;
 // Fim código acima
 
 

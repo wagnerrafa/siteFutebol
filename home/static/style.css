@@ -302,7 +302,13 @@ section div{
 }
 #historico{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 #historico div div{
     font-size: 2rem;
@@ -328,6 +334,8 @@ section div{
 #contato div img{
     width: 60px;
 }
+
+
 
 
 @media(max-width: 950px){

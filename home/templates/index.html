@@ -169,22 +169,24 @@
         </div>
     </section>
     <section id="historico">
-        <div>
+        <div id="im" >
             <h2>Historico</h2>
             {% for re in msgRe %}
             {% if re.placarCasa != none %}
                 <div>
                     <span>TOTA F.C</span>
-                    <span>{{re.placarCasa}}</span>
+                    <span id="mm{{re.id}}">{{re.placarCasa}}</span>
                     <span>X</span>
                     <span>{{re.placarFora}}</span>
                     <span>{{re.time}}</span>
                 </div>
                 {% endif %}
             {% endfor %}
+
         </div>
 
     </section>
-    <div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-b57Y18wA8x8wxx2y-15.gif' border='0' alt='contador de acesso'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=b57Y18wA8x8wxx2y'></script></div>
+    <div id="contador" align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-b57Y18wA8x8wxx2y-15.gif' border='0' alt='contador de acesso'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=b57Y18wA8x8wxx2y'></script></div>
+
 </body>
 </html>

@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../static/images/backk.jpg);
+    background-image: url("images/backk.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

@@ -309,6 +309,7 @@ section div{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    min-height: 80vh;
 }
 #historico div div{
     font-size: 2rem;
@@ -334,9 +335,6 @@ section div{
 #contato div img{
     width: 60px;
 }
-
-
-
 
 @media(max-width: 950px){
     .header-nav {

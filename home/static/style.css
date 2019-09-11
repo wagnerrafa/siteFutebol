@@ -25,14 +25,20 @@ h2{
     color: #102041;
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px #bda10f;
+
 }
 h3{
     font-size: 2rem;
     color: #102041;
+    text-shadow: 2px 2px #bda10f;
+
 }
 p{
     font-size: 1.3rem;
     color: #081125;
+    text-shadow: 2px 2px #bda10f;
+
 }
 .btn-default:hover {
     background-color: #4174a2;
@@ -70,10 +76,12 @@ section {
 
 .header-welcome span {
     width: 100%;
-    color: #102041;
+    color: #e4d03c;
     display: inline-block;
     text-align: center;
     font-size: 6rem;
+    text-shadow: 2px 2px #102041;
+
 }
 
 .header-welcome p {

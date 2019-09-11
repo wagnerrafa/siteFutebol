@@ -1,12 +1,17 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url(../static/images/backk.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn-default {
-    background-color: #e4d03c;
-    box-shadow: #e4d03c 0 0 5px 2px;
-    color: #102041;
+    background-color: #102041;
+    box-shadow: #bda10f 0 0 5px 2px;
+    color: #e4d03c;
     padding: 10px 40px;
     border-radius: 5px;
     font-size: 1.3rem;
@@ -23,15 +28,15 @@ h2{
 }
 h3{
     font-size: 2rem;
-    color: #e4d03c;
+    color: #102041;
 }
 p{
     font-size: 1.3rem;
-    color: #102041;
+    color: #081125;
 }
 .btn-default:hover {
-    background-color: #bda10f;
-    box-shadow: #bda10f 0 0 5px 2px;
+    background-color: #4174a2;
+    box-shadow: #102041 0 0 5px 2px;
 }
 .fa-bars.fa-bars{
     display: none;
@@ -47,7 +52,6 @@ section {
     width: 100%;
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
-    background-color: #102041;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,14 +70,13 @@ section {
 
 .header-welcome span {
     width: 100%;
-    color: #e4d03c;
+    color: #102041;
     display: inline-block;
     text-align: center;
     font-size: 6rem;
 }
 
 .header-welcome p {
-    color: #e4d03c;
     width: 100%;
     margin: 40px;
     text-align: center;
@@ -100,7 +103,7 @@ section {
 }
 .header-welcome a{
     text-decoration: none;
-    color: #102041;
+    color: #e4d03c;
 }
 section.numeros{
     display: flex;
@@ -134,11 +137,9 @@ section div{
 }
 
 .menu-container a:hover {
-    color: #7651b7;
+    color: #bda10f;
 }
-#sobre{
-    background-color: #e4d03c;
-}
+
 #sobre div{
     display: flex;
     justify-content: center;
@@ -153,8 +154,6 @@ section div{
 #sobre img{
     width: 50%;
     border-radius: 10px;
-    /* min-width: 400px; */
-    /* padding-top: 80px ; */
 }
 #sobre h3{
     margin: 0;
@@ -167,22 +166,18 @@ section div{
     flex-flow: wrap;
     width: 100%;
     position: relative;
-    background-color: #102041;
 }
 
 #elenco header {
     width: 100%;
     text-align: center;
-    color: #e4d03c;
+    color: #102041;
     font-size: 1.3rem;
 }
 
 #elenco header h2 {
     font-size: 3rem;
-    color: #e4d03c;
-}
-#elenco p{
-    color: #e4d03c;
+    color: #102041;
 }
 
 #elenco article {
@@ -224,7 +219,7 @@ section div{
 }
 
 #elenco article div a {
-    color: #7651B7;
+    color: #bda10f;
     width: 100%;
     display: inline-block;
 }
@@ -233,10 +228,6 @@ section div{
     width: 250px;
     height: 300px;
 }
-#marcar{
-    background-color: #e4d03c;
-}
-
 #marcar input{
     width: 18vw;
     box-shadow: #e4d03c 0 0 5px 2px;
@@ -276,14 +267,10 @@ section div{
   color: #102041;
   margin: 10px;
 }
-#agenda{
-    background-color: #102041;
-}
+
 #agenda h2{
-    color: #e4d03c;
     margin: 0;
     padding: 40px
-
 }
 #agenda div{
     display: flex;
@@ -308,10 +295,6 @@ section div{
 #historico{
     display: flex;
     justify-content: center;
-    background-color: #102041;
-}
-#historico h2{
-    color: #e4d03c;
 }
 #historico div div{
     font-size: 2rem;
@@ -323,10 +306,7 @@ section div{
     transition: 0.5s box-shadow, background-color;
     background-color: white;
 }
-#contato{
-    background-color: #e4d03c;
-    font-size: 1.3rem;
-}
+
 #contato div{
     display: flex;
     justify-content: center;
